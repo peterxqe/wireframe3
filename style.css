@@ -1,0 +1,76 @@
+.welcome{
+width:100%;
+float:left;
+background-color:#950000;
+text-align:center;
+color:#ffffff
+}
+
+.welcome h1{
+  padding:2% 0 2% 0;
+  margin:0%;
+}
+
+.introduction{
+  width:100%;
+  float:left;
+  background-color:#600040;
+  float:left;
+}
+
+.me{
+  width:50%;
+  float:left;
+  text-align:center;
+}
+
+.introduction img{
+  width:30%;
+  float:left;
+}
+
+.portfolio{
+  text-align:center;
+  width:100%;
+  background-color:#132452;
+  float:left;
+}
+
+.portfolio .img-box{
+  width:33%;
+  float:left;
+}
+
+.contact{
+  width:100%;
+  float:left;
+  background-color:#8b008b;
+}
+.contact h2{
+  text-align:center;
+}
+
+.contact .message{
+  width:50%;
+  float:left;
+}
+
+.message input,textarea{
+  width:50%;
+  float:left;
+  margin-bottom: 5%;
+}
+
+.contact .data{
+  width:50%;
+  float:left;
+  text-align:center;
+}
+
+@media screen and (max-width: 480px) {
+    .portfolio .img-box{
+      border-style:solid;
+      border-color:#8b008b;
+      width:31%;
+    }
+    }
