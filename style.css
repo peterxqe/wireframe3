@@ -1,9 +1,13 @@
+body{
+  background-color: #dfb2b2;
+  margin:0%;
+}
 .welcome{
-width:100%;
-float:left;
-background-color:#950000;
-text-align:center;
-color:#ffffff
+  width:100%;
+  float:left;
+  background-color:#950000;
+  text-align:center;
+  color:#ffffff
 }
 
 .welcome h1{
@@ -14,17 +18,19 @@ color:#ffffff
 .introduction{
   width:100%;
   float:left;
-  background-color:#600040;
   float:left;
 }
 
-.me{
+.about-me{
   width:50%;
   float:left;
   text-align:center;
 }
 
 .introduction img{
+  margin:2%;
+  border-style:solid;
+  border-color:#590000;
   width:30%;
   float:left;
 }
@@ -32,27 +38,49 @@ color:#ffffff
 .portfolio{
   text-align:center;
   width:100%;
-  background-color:#132452;
   float:left;
 }
 
+.portfolio h2{
+  background-color:#950000;
+  color:#ffffff;
+}
+
 .portfolio .img-box{
-  width:33%;
+  width:31%;
   float:left;
+  margin:1%;
+}
+
+.img-box img{
+  width:80%;
+}
+
+.img-box span{
+  font-weight: bold;
+  display:block;
 }
 
 .contact{
   width:100%;
   float:left;
-  background-color:#8b008b;
 }
+
 .contact h2{
   text-align:center;
+  background-color:#950000;
+  color:#ffffff;
+}
+
+.contact h3{
+  width:92%;
+  margin-left:8%;
 }
 
 .contact .message{
-  width:50%;
+  width:49%;
   float:left;
+  margin-left:1%;
 }
 
 .message input,textarea{
@@ -70,7 +98,7 @@ color:#ffffff
 @media screen and (max-width: 480px) {
     .portfolio .img-box{
       border-style:solid;
-      border-color:#8b008b;
+      border-color:#590000;
       width:31%;
     }
     }
